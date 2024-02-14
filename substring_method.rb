@@ -28,5 +28,6 @@ end
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
-puts substrings("below", dictionary)
+puts "Original Strings: \t'below'\n\t\t\t'I feel like going down below! My partner thinks going down is a bad idea.'"
+puts "\nResults:\n", substrings("below", dictionary)
 puts substrings("I feel like going down below! My partner thinks going down is a bad idea.", dictionary)
